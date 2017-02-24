@@ -1,0 +1,3 @@
+{{ with (getJSON "http://tvpage:tvpage@dev.taylorguitars.com/resp/header") }}
+{{ (index . 0) | safeHTML }}
+{{ end }}

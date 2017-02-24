@@ -1,0 +1,8 @@
+{{ with (getJSON "http://tvpage:tvpage@dev.taylorguitars.com/resp/header") }}
+{{ (index . 0) | safeHTML }}
+{{ end }}
+<script type="text/javascript">
+  
+  document.querySelector('.site-content-wrapper').remove();
+
+</script>

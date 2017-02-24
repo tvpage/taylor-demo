@@ -5,4 +5,12 @@
     <loc>http://replace-this-with-your-hugo-site.com/</loc>
   </url>
   
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/header-current/</loc>
+  </url>
+  
+  <url>
+    <loc>http://replace-this-with-your-hugo-site.com/header-required/</loc>
+  </url>
+  
 </urlset>
